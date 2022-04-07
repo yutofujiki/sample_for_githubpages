@@ -71,7 +71,7 @@ header {
 }
 
 .left-profile {
-  width: calc(100vw - 60vw);
+  width: calc(100vw - 50vw);
   margin:100px 0 50px 50px;
   text-align : center
 }
@@ -84,7 +84,7 @@ header {
 }
 
 .right-profile {
- width: 60vw;
+ width: 50vw;
  margin:100px 50px 50px 0;
 }
 
@@ -92,6 +92,32 @@ header {
   background-color: gray;
   height: 450px;
 }
+
+.skill-headname {
+  text-align: center;
+  border-bottom: 1px solid red;
+  width: 200px;
+  margin: auto;
+}
+
+.skills {
+  text-align: center;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+  .skill-title {
+    background-color: lightgrey;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .skill-sub {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+  }
+
 
 .works_view {
   background-color: lightskyblue;
