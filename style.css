@@ -90,7 +90,7 @@ header {
 
 .skill_view {
   background-color: gray;
-  height: 450px;
+  height: 460px;
 }
 
 .skill-headname {
@@ -121,7 +121,23 @@ header {
 
 .works_view {
   background-color: lightskyblue;
-  height: 450px;
+  height: 600px;
+}
+
+.works-images{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.works-image {
+  text-align: center;
+}
+
+.works-img {
+  height: 300px;
+  width: 300px;
+  border: 4px solid black;
 }
 
 .name-footer {
